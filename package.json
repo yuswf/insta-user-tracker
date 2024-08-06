@@ -1,0 +1,19 @@
+{
+  "name": "insta-session",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "node-schedule": "^2.1.1",
+    "path": "^0.12.7",
+    "puppeteer": "^22.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
